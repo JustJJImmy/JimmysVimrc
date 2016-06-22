@@ -17,7 +17,7 @@ syntax enable
 syntax on
 
 
-colorscheme desert
+colorscheme darkblue
 colorscheme cpp
 
 filetype on
