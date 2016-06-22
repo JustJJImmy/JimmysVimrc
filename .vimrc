@@ -13,10 +13,11 @@ set mouse=a
 
 set guifont=Monospace\ 20
 
+syntax enable
 syntax on
 
 
-colorscheme darkblue
+colorscheme desert
 colorscheme cpp
 
 filetype on
