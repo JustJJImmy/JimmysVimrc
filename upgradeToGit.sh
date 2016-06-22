@@ -1,4 +1,4 @@
-`cp ~/.vimrc ~/.wim`
+`cp ~/.vimrc ~/.vim/.vimrc`
 `cd ~/.vim`
 `git add .`
 `git commit -m "upgrade to git"`

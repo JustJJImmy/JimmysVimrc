@@ -9,6 +9,7 @@ set autoindent
 set nobackup
 set nocompatible
 set magic 
+set mouse=a
 
 set guifont=Monospace\ 20
 
@@ -51,5 +52,37 @@ let Tlist_Auto_Update=1
 let Tlist_Display_Tag_Scope=1
 let Tlist_Enable_Fold_Column=1
 let Tlist_WinWidth=50
+let Tlist_Use_Right_Window=1
+
+" settings of OmniCppComplete "
+set nocp
+
+" settings of MiniBufExplorer "
+let g:miniBufExplMapWindowNavVim=1
+let g:miniBufExplMapWindowNavArrows=1
+let g:miniBufExplMapCTabSwitchBufs=1
+let g:miniBufExplMapSelTarget=1
+let g:miniBufExplMapMoreThanOnew=0
+
+
+" settings of Winmanager "
+let g:NERDTree_title="[NERDTree]"
+let g:winManagerWindowLayout="NERDTree|TagList"
+
+function! NERDTree_Start()
+	exec 'NERDTree'
+endfunction
+
+function! NERDTree_IsValid()
+	return 1
+endfunction
+
+
+nmap wm : WMToggle<CR>
+
+
+
+
+
 
 
